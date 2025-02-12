@@ -1,0 +1,10 @@
+{
+  "name": "theme-showcase",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "npx tailwindcss build styles.css -o dist/styles.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.6"
+  }
+}

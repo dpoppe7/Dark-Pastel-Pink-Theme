@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Pastel Pink Theme</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[rgb(19,22,31)] text-white p-4 sm:p-8 relative">
+    <!-- Intro Animation -->
+    <div id="intro" class="fixed inset-0 flex items-center justify-center bg-[rgb(24,28,40)] z-50">
+        <img src="images/Vector 7.svg" alt="Theme Logo" class="w-40 h-40 animate-logo">
+    </div>
+
+    <!-- Background Rectangle -->
+    <div id="main-content" class="fade-in absolute inset-0 bg-gradient-to-b from-[rgb(24,28,40)] to-[rgb(47,57,80)] rounded-3xl -z-10 m-4 sm:m-8 min-h-screen"></div>
+    
+    <div id="main-content" class="fade-in relative z-10 fade-in-up-trigger">
+        <!-- Hero Section -->
+        <header class="text-center py-10 fade-in-up-trigger">
+            <img src="images/Vector 7.svg" alt="Theme logo" class="mx-auto mt-10 mb-8">
+            <h1 class="text-4xl font-bold text-pink-400">Dark Pastel Pink ✨</h1>
+            <p class="text-gray-400 mt-5 px-5 sm:px-8 text-lg">A soothing dark theme blending soft pastel pinks with vibrant pastel shades.</p>
+        </header>
+
+        <!-- Theme Screenshot -->
+        <section class="max-w-7xl mx-auto my-3 px-4 sm:px-14 mb-40 fade-in-up-trigger">
+            <img src="images/Screen.png" alt="Screen-screeshot" class="mx-auto rounded-lg shadow-2xl">
+        </section>
+
+        <!-- Paragraph Body -->
+        <section class="max-w-3xl mx-auto my-10 px-5 fade-in-up-trigger">
+            <p class="text-gray-400">
+                Inspired by the calming power of pastels, <span class="italic font-bold">Dark Pastel Pink</span> was crafted to keep you focused and immersed in your code. 
+                Each color is carefully chosen to bring clarity and reduce distractions. 
+                It’s not just beautiful — it’s built for productivity! </p>
+        </section>
+        
+        <section class="max-w-3xl mx-auto my-10 px-4 sm:px-5 mt-20 fade-in-up-trigger">
+            <!-- Color Reference -->
+            <h2 class="text-2xl font-semibold text-pink-300 mb-10">🎨 Syntax Colors</h2>
+            <div class="flex items-center justify-center">
+                <div class="grid grid-cols-9 gap-3 my-5">
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-[#fdb6d0]"></div>
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-[#ffae57]"></div>
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-[#ffd580]"></div>
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-[#bae67e]"></div>
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-[#5ccfe6]"></div>
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-[#9cc6f4]"></div>
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-[#a2aabc]"></div>   
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-[#aa72c5]"></div>
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-[#d47598]"></div>
+                </div>
+            </div>
+           
+            <!-- Installation -->
+            <a href="https://marketplace.visualstudio.com/items?itemName=DamarisPoppe.dark-pastel-pink&ssr=false" class="bg-[rgb(24,28,40)] 
+                hover:bg-[rgba(24,28,40,0.66)] rounded-3xl w-90 h-40 flex flex-col items-center justify-center mx-auto mt-10 no-underline fade-in-up-trigger">
+                <img src="images/png-vs-code.png" alt="vs-code" class="w-10 sm:w-20 h-auto object-contain mx-auto">
+                <p class="text-gray-400 mt-2 underline">Add to VS Code</p>
+            </a>
+        </section>
+
+        <!-- Effect: ASCII Rain -->
+        <div class="flex justify-center items-center h-[17vh]">
+            <pre id="ascii-rain" class="w-[40vw] h-[1vh] bg-transparent text-green-400 font-mono text-[min(2vw,2vh)] leading-snug overflow-hidden p-4 rounded-lg"></pre>
+        </div>      
+
+        
+        <!-- Footer -->
+        <footer class="text-center py-5 text-gray-500 fade-in-up-trigger">
+            <p>Made with 🩷 by Damaris Poppe © 2025 </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

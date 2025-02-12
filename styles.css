@@ -1,0 +1,54 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom Styles Below */
+html {
+    overflow-y: scroll;
+}
+
+body {
+    overflow: hidden; /* Ensures no duplicate scrollbar */
+}
+
+/* Scrll-fade animation */
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 2s; /* Delay the animation becuase of intro taking 2 seconds */
+}
+
+/* Intro animation */
+@keyframes spinFadeOut {
+    0% {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(360deg);
+    }
+}
+
+.animate-logo {
+    animation: spinFadeOut 2s ease-in-out forwards;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
