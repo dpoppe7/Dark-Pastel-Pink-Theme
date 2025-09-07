@@ -3,4 +3,4 @@ This repo containts the [website](https://dark-pastel-pink-theme.netlify.app/) f
 
 <img width="1440" alt="Screenshot 2025-02-12 at 4 55 00 PM" src="https://github.com/user-attachments/assets/10ac1b8a-467f-4515-9c50-6d574b9aa264" />
 
-For more details about installation refer to Dark Pastel Pink documentation [github repo](https://github.com/dpoppe7/vscode-theme-dark-pastel-pink).
+- For more details about installation refer to Dark Pastel Pink documentation [github repo](https://github.com/dpoppe7/vscode-theme-dark-pastel-pink).
